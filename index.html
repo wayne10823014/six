@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by  wayne</title>
+  <link rel="stylesheet" href="scss/all.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  
+  <div class="btn btn-primary">primary</div>
+  <h1>Bootstrap grid examples</h1>
+  <h3>Basic grid layouts to get you familiar with building within the Bootstrap grid system.</h3>
+  <p></p>In these examples the <span class="pink">.themed-grid-col</span> class is added to the columns to add sometheming. Thisis not a class that is available in Bootstrap by default.
+  <h2>Five grid tiers</h2>
+  <p>There are five tiers to the Bootstrap grid system, one for each range of devices we support. Each tier starts at a minimum viewport size and automatically applies to the larger devices unless overridden.</p>
+  <div class="div row mb-3">
+    <div class="div col-4 themed-color">.col-4</div>
+    <div class="div col-4 themed-color">.col-4</div>
+    <div class="div col-4 themed-color">.col-4</div>
+  </div>
+  <div class="div row mb-3">
+    <div class="div col-sm-4 themed-color">.col-sm-4</div>
+    <div class="div col-sm-4 themed-color">.col-sm-4</div>
+    <div class="div col-sm-4 themed-color">.col-sm-4</div>
+  </div>
+  <div class="div row mb-3">
+    <div class="div col-md-4 themed-color">.col-md-4</div>
+    <div class="div col-md-4 themed-color">.col-md-4</div>
+    <div class="div col-md-4 themed-color">.col-md-4</div>
+  </div>
+  <div class="div row mb-3">
+    <div class="div col-lg-4 themed-color">.col-lg-4</div>
+    <div class="div col-lg-4 themed-color">.col-lg-4</div>
+    <div class="div col-lg-4 themed-color">.col-lg-4</div>
+  </div>
+  <div class="div row mb-3">
+    <div class="div col-xl-4 themed-color">.col-xl-4</div>
+    <div class="div col-xl-4 themed-color">.col-xl-4</div>
+    <div class="div col-xl-4 themed-color">.col-xl-4</div>
+  </div>
+  <h2>Three equal columns</h2>
+  <p> </p>Get three equal-width columns <span class="bold">starting at desktops and scaling to large desktops. </span>On mobile devices, tablets and below, the columns will automatically stack.
+  <div class="div row mb-3">
+    <div class="div col-md-4 themed-color">.col-md-4</div>
+    <div class="div col-md-4 themed-color">.col-md-4</div>
+    <div class="div col-md-4 themed-color">.col-md-4  </div>
+  </div>
+  <h2>Three unequal columns</h2>
+  <p> </p>Get three columns <span class="bold">starting at desktops and scaling to large desktops </span>of various widths. Remember, grid columns should add up to twelve for a single horizontal block. More than that, and columns start stacking no matter the viewport.
+  <div class="div row mb-3">
+    <div class="div col-md-3 themed-color">.col-md-3</div>
+    <div class="div col-md-6 themed-color">.col-md-6</div>
+    <div class="div col-md-3 themed-color">.col-md-3 </div>
+  </div>
+  <h2>Two columns</h2>
+  <p> </p>Get two columns <span class="bold">starting at desktops and scaling to large desktops.</span>
+  <div class="div row mb-3">
+    <div class="div col-md-8 themed-color">.col-md-8</div>
+    <div class="div col-md-4 themed-color">.col-md-4</div>
+  </div>
+  <h2>Full width, single column</h2>
+  <p class="gold">No grid classes are necessary for full-width elements.</p>
+  <hr/>
+  <h2>Two columns with two nested columns</h2>
+  <p> </p>Per the documentation, nesting is easy—just put a row of columns within an existing column. This gives you two columns <span class="bold">starting at desktops and scaling to large desktops</span>, with another two (equal widths) within the larger column.
+  <p>At mobile device sizes, tablets and down, these columns and their nested columns will stack.</p>
+  <div class="div row mb-3">
+    <div class="div col-md-8 themed-color">.col-md-8
+      <div class="div row">
+        <div class="div col-md-6 themed-color">.col-md-6</div>
+        <div class="div col-md-6 themed-color">.col-md-6</div>
+      </div>
+    </div>
+    <div class="div col-md-4 themed-color">.col-md-4</div>
+  </div>
+  <h2>Mixed: mobile and desktop</h2>
+  <hr/>
+  <p>The Bootstrap v4 grid system has five tiers of classes: xs (extra small), sm (small), md (medium), lg (large), and xl (extra large). You can use nearly any combination of these classes to create more dynamic and flexible layouts.</p>
+  <p>Each tier of classes scales up, meaning if you plan on setting the same widths for xs and sm, you only need to specify xs.</p>
+  <div class="div row mb-3">
+    <div class="div col-12 col-md-8 themed-color">col-12 col-md-8</div>
+    <div class="div col-6 col-md-4 themed-color">.col-6 .col-md-4</div>
+  </div>
+  <div class="div row mb-3">
+    <div class="div col-6 col-md-4 themed-color">col-6 .col-md-4</div>
+    <div class="div col-6 col-md-4 themed-color">.col-6.col-md-4</div>
+    <div class="div col-6 col-md-4 themed-color">.col-6.col-md-4</div>
+  </div>
+  <div class="div row mb-3">
+    <div class="div col-md-6 themed-color">.col-md-6</div>
+    <div class="div col-md-6 themed-color">.col-md-6</div>
+  </div>
+  <hr/>
+  <h2>Mixed: mobile, tablet, and desktop</h2>
+  <div class="div row mb-3">
+    <div class="div col-12 col-sm-6 col-lg-8 themed-color">.col-12 .col-sm-6 .col-lg-8</div>
+    <div class="div col-md-6 col-lg-4 themed-color">.col-md-6.col-lg-4</div>
+  </div>
+  <div class="div row mb-3">
+    <div class="div col-6 col-sm-4 themed-color">.col-6.col-sm-4</div>
+    <div class="div col-6 col-sm-4 themed-color">.col-6.col-sm-4</div>
+    <div class="div col-6 col-sm-4 themed-color">.col-6.col-sm-4</div>
+  </div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
